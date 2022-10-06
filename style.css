@@ -77,10 +77,15 @@ section{
    text-align: center;
 }
 .image-right img{
+   position:absolute;
    float: right;
    width: 50%;
 }
 
+.link-content{
+   padding: 10px 20px;
+   display: flex;
+}
 
 /*
 -------------------------------------
@@ -88,6 +93,8 @@ section{
 */
 footer{
    display: block;
+   position: relative;
+   top: 600px;
 }
 footer .copyright
 {
