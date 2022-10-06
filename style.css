@@ -76,13 +76,19 @@ nav ul li a:hover{
 section{
    text-align: center;
 }
-
+.image-right img{
+   float: right;
+   width: 50%;
+}
 
 
 /*
 -------------------------------------
                Footer
 */
+footer{
+   display: block;
+}
 footer .copyright
 {
    text-align: center;
@@ -92,7 +98,7 @@ footer h3
    font-size: 1.2em;
    font-weight: 300;
 }
-/* footer ion-icon{
+.linksfooter{
    text-align: center;
    align-items: center;
-} */
+}
