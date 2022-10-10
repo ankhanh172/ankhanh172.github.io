@@ -5,7 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="icon" type="image/x-icon" href="img/logo.png">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="/css/style.css">
    <title>Home Page</title>
 </head>
 <body ng-app="myapp">
@@ -18,12 +18,11 @@
       <hr>
       <!-- navigation menu -->
       <ul class="menu">
-            <li class="items"><a href="/abc.html">ABC</a></li>
-            <li class="items"><a href="#">Animals</a></li>
-            <li class="items"><a href="#">Vegetable</a></li>
-            <li class="items"><a href="#">Songs</a></li>
-            <li class="items"><a href="#">About Us</a></li>
-            <li class="items"><a href="#">Contact</a></li>
+            <li class="items"><a href="/abc.html">ABC and Number</a></li>
+            <li class="items"><a href="/animal.html">Animals</a></li>
+            <li class="items"><a href="/vegetable.html">Vegetable</a></li>
+            <li class="items"><a href="/about.html">About Us</a></li>
+            <li class="items"><a href="/contact.html">Contact</a></li>
       </ul>
       <div class="clear"></div>
    </nav>
@@ -31,21 +30,25 @@
    <section>
       <div ng-view></div>
       <div class="main">
-         <div class="center link-content">
-            <a href="">ádsa</a>
-            <a href="">ádsa</a>
-            <a href="">áda</a>
-            <a href="">ádsa</a>
-            <a href="">sadsa</a>
-            <a href="">ádsa</a>
-            <a href="">ádsa</a>
-            <a href="">ádsa</a>
-            <a href="">ád</a>
-            <a href="">áds</a>
+         <div class="box-content">
+            <div class="box-items">
+               <div class="link-item">
+                  <a href="#">ádsa</a>
+                  <a href="#">ádsa</a>
+                  <a href="#">áda</a>
+                  <a href="#">ádsa</a>
+                  <a href="#">sadsa</a>
+                  <a href="#">ádsa</a>
+                  <a href="#">ádsa</a>
+                  <a href="#">ádsa</a>
+                  <a href="#">ád</a>
+                  <a href="#">áds</a>
+               </div>
+            </div>
          </div>
          <div class="content">
             <div class="image-right">
-               <img src="./image/z3777584194491_36af21636208bb26adc398c60f89469b.png" alt="">
+               <img src="./image/homepage1.png" title="homepage">
             </div>
          </div>
       </div>
@@ -64,6 +67,9 @@
          <h3>&copy; 2022 Copyright Group6</h3>
       </div>
       <div class="clear"></div>
+      <div class="thank-you">
+         <p>Thank you for visiting Kid-Zone website!</p>
+      </div>
    </footer>
 
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
