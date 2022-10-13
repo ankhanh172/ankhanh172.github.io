@@ -1,83 +1,349 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+<head>		
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="icon" type="image/x-icon" href="img/logo.png">
-   <link rel="stylesheet" href="/css/style.css">
-   <title>Home Page</title>
-</head>
-<body ng-app="myapp">
-   <nav class="navbar">
-      <!-- logo and name website -->
-      <div class="logo">
-         <img src="./image/logo.png" alt="Logo">
-         <h1>Kid-Zone</h1>
-      </div>
-      <hr>
-      <!-- navigation menu -->
-      <ul class="menu">
-            <li class="items"><a href="/index.html">Home</a></li>
-            <li class="items"><a href="/abc.html">ABC and Number</a></li>
-            <li class="items"><a href="/animal.html">Animals</a></li>
-            <li class="items"><a href="/vegetable.html">Vegetable</a></li>
-            <li class="items"><a href="/about.html">About Us</a></li>
-            <li class="items"><a href="/contact.html">Contact</a></li>
-      </ul>
-      <div class="clear"></div>
-   </nav>
+	<title>Home Page</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="/images/page/logo.png" type="image/x-icon" />
+	<link href="http://getbootstrap.com/examples/offcanvas/offcanvas.css" rel="stylesheet">
+	<link href="templatemo_style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<div class="container logo">
+				<div class="row">
+					<div class="col-md-12"><a href="#"><img src="/images/page/logo.png" alt="logo-kidzone"><h1 class="logo-name">Kid Zone</h1></a></div>
+				</div>
+			</div>
+			<nav class="navbar navbar-default" role="navigation"> 
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>					
+				</div>
 
-   <section>
-      <div ng-view></div>
-      <div class="main">
-         <div class="box-content">
-            <div class="box-items">
-               <div class="link-item">
-                  <a href="#">ádsa</a>
-                  <a href="#">ádsa</a>
-                  <a href="#">áda</a>
-                  <a href="#">ádsa</a>
-                  <a href="#">sadsa</a>
-                  <a href="#">ádsa</a>
-                  <a href="#">ádsa</a>
-                  <a href="#">ádsa</a>
-                  <a href="#">ád</a>
-                  <a href="#">áds</a>
-               </div>
-            </div>
-         </div>
-         <div class="content">
-            <div class="image-right">
-               <img src="./image/homepage1.png" title="homepage">
-            </div>
-         </div>
-      </div>
-   </section>
-   
-   <footer>
-      <div class="linksfooter">
-         <a href="https://www.facebook.com/DLTKsCraftsForKids" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-      <a href="http://youtube.com" target="_blank" ><ion-icon name="logo-youtube"></ion-icon></a>
-      <a href="https://www.facebook.com/DLTKsCraftsForKids" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-      <a href="http://youtube.com" target="_blank" ><ion-icon name="logo-youtube"></ion-icon></a>
-      <a href="https://www.facebook.com/DLTKsCraftsForKids" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-      <a href="http://youtube.com" target="_blank" ><ion-icon name="logo-youtube"></ion-icon></a>
-      </div>
-      <div class="copyright">
-         <h3>&copy; 2022 Copyright Group6</h3>
-      </div>
-      <div class="clear"></div>
-      <div class="thank-you">
-         <p>Thank you for visiting Kid-Zone website!</p>
-      </div>
-   </footer>
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="/index.html">Home</a></li>
+						<li><a href="/abcandnumber.html">Abc and Number</a></li>
+						<li><a href="/animals.html">Animals</a></li>
+                  <li><a href="/vegetable.html">Vegetable</a></li>
+						<li><a href="/about.html">About Us</a></li>
+						<li><a href="/contact.html">Contact</a></li>
+					</ul>
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Go</button>
+					</form>					
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</header>
+		<div class="container" id="home">
+			<div class="row row-offcanvas row-offcanvas-left">
+				<div class="col col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">	
+                			
+					<div class="sidebar-nav">
+                    
+						
+                        
+						<h4>About Us</h4>
+						<p>Kid zone is a place that includes useful lessons to help young children grow and change. With today's development, in addition to face-to-face learning, it is possible to learn online. Capturing that mentality, the Kid-zone website was born, helping young children learn anytime, anywhere and with many good lessons to help parents choose the right lessons for their children.</p>
+                        
+						
+						
+						<hr>
+                        
+						<h4>Contact</h4>
+						Address:
+						<p>590 Cách Mạng Tháng Tám, Phường 11, Quận 3, HCM</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19751.305860360622!2d106.64662791429105!3d10.799404754818001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2ecb62e0d050fe9!2zRlBUIEFwdGVjaCBIQ00gLSBI4buHIFRo4buRbmcgxJDDoG8gVOG6oW8gTOG6rXAgVHLDrG5oIFZpw6puIFF14buRYyBU4bq_IChTaW5jZSAxOTk5KQ!5e0!3m2!1svi!2s!4v1665328394312!5m2!1svi!2s" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<div class="cleaner h10"></div>
+                        
+                        <hr>
+                        
+						<div class="social_buttons">
+							<a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+							<a href="#" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+							<a href="#" class="icon-button youtube"><i class="icon-youtube"></i><span></span></a>
+						</div>
+						<hr>
+                        
+					</div>
+                    
+				</div> <!-- col sidebar -->
+                
+				<div class="col col-xs-12 col-sm-9">
+					<p class="pull-left visible-xs">
+						<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+					</p>
+                    
+                    <section class="row" id="website_templates">				
+						<div class="row">
+							<div class="col-xs-12 col-md-12">
+								<h3>Animals</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-md-12">
+								<div class="item_container">
+                                
+									<div class="item">
+										<a href="/popup.html" class="thumbnail">
+											<img src="/images/animals/mammals/mammals1.jpg" alt="mammals">
+											<p>Mammals</p>
+										</a>
+										<!-- <div onclick="togglePopup()" class="items">
+											
+										</div> -->
+									</div>		          
+									<div class="item">
+										<a href="#" class="thumbnail">
+											<img src="/images/animals/birds/birds.png" alt="birds">
+											<p>Birds</p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#" class="thumbnail">
+											<img src="/images/animals/dinosaurs/dinosaurs.png" alt="dinosaurs">
+											<p>Dinosaurs</p>
+										</a>
+									</div>                  
+									<div class="item">
+										<a href="#" class="thumbnail">
+											<img src="/images/animals/fish/types-of-fish.jpg" alt="fish">
+											<p>Fish</p>
+										</a>
+									</div>
+                                    
+									<div class="item">
+										<a href="#" class="thumbnail">
+											<img src="/images/animals/Reptiles/reptiles.jpg" alt="reptiles">
+											<p class="hideOverflow"><abbr title="Titanium Web Template">Reptiles</abbr></p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#" class="thumbnail">
+											<img src="/images/animals/amphibians/Amphibians1.jpg" alt="amphibians">
+											<p>Amphibians</p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#" class="thumbnail">
+											<img src="/images/animals/Phylum-Arthropoda/arthropods.jpg" alt="phylumarthropoda">
+											<p>Phylum Arthropoda</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="row">
+							<div class="col-xs-12 col-md-12">
+                            	<a href="#" class="btn btn-primary" role="button">View More</a>
+						  </div>
+						</div>           -->
+					</section> <!-- website templates -->
+                    
+					<section class="row" id="mini_templates">				
+						<div class="row">
+							<div class="col-xs-12 col-md-12">
+								<h3>Vegetable</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-md-12">
+								<div class="item_container">
+									<div class="item">
+										<a href="#templatemo_378_dragonfly" rel="nofollow" class="thumbnail">
+											<img src="/images/vegetable/Brassica/Brassica.png" alt="Brassica">
+											<p>Brassica</p>
+										</a>
+									</div>		          
+									<div class="item">
+										<a href="#templatemo_375_tech_layer" rel="nofollow" class="thumbnail">
+											<img src="/images/vegetable/Phaseolus/Phaseolus.png" alt="Phaseolus">
+											<p>Phaseolus</p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#templatemo_371_gallery" rel="nofollow" class="thumbnail">
+											<img src="/images/vegetable/Daucus/Daucus-carota_.jpg" alt="Daucus Carota">
+											<p>Daucus</p>
+										</a>
+									</div>                  
+									<div class="item">
+										<a href="#templatemo_370_focus" rel="nofollow" class="thumbnail">
+											<img src="/images/vegetable/Solanum/Solanum_melongena.png" alt="Solanum">
+											<p>Solanum</p>
+										</a>
+									</div>
+                                    
+									<div class="item">
+										<a href="#templatemo_368_connect" rel="nofollow" class="thumbnail">
+											<img src="/images/vegetable/Cucumis/Cucumis.jpg" alt="Cucumis">
+											<p>Cucumis</p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#templatemo_364_aqua" rel="nofollow" class="thumbnail">
+											<img src="/images/vegetable/Allium/Allium-Guide1.jpg" alt="Allium">
+											<p>Allium</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="row">
+							<div class="col-xs-12 col-md-12">
+								<a href="#" class="btn btn-primary" role="button">View More</a>
+							</div>
+						</div>           -->
+					</section> <!-- mini templates -->
+                    
+					<section class="row" id="flash_templates">				
+						<div class="row">
+							<div class="col-xs-12 col-md-12">
+								<h3>Abc, number, ...</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-md-12">
+								<div class="item_container">
+									<div class="item">
+										<a href="#flashmo_280_dynamic_stack" rel="nofollow" class="thumbnail">
+											<img src="/images/abcandnumber/shape.png" alt="shape-circle-square-triangle">
+											<p>Shape</p>
+										</a>
+									</div>		          
+									<div class="item">
+										<a href="#flashmo_279_stylish_gallery" rel="nofollow" class="thumbnail">
+											<img src="/images/abcandnumber/abc/abcalphabet.jpg" alt="Stylish Gallery">
+											<p>ABC Alphabet</p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#flashmo_276_new_era" rel="nofollow" class="thumbnail">
+											<img src="/images/abcandnumber/number/number-1.jpg" alt="New Era">
+											<p>The Number</p>
+										</a>
+									</div>                  
+<!--
+									<div class="item">
+										<a href="#flashmo_273_alternative" rel="nofollow" class="thumbnail">
+											<img src="" alt="Alternative">
+                                            <p class="hideOverflow"><abbr title="Alternative Image Gallery"></abbr></p>
+										</a>
+									</div>
+                                    
+-->
+									<div class="item">
+										<a href="#flashmo_272_3d_zoom_gallery" rel="nofollow" class="thumbnail">
+											<img src="/images/abcandnumber/table/multiplication-tables.png" alt="table of number">
+											<p>Table of 1,2,3,...</p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#flashmo_269_dragonfly" rel="nofollow" class="thumbnail">
+											<img src="/images/abcandnumber/number/addition.jpg" alt="Addition">
+											<p>Addition</p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#flashmo_267_circular_pink" rel="nofollow" class="thumbnail">
+											<img src="/images/abcandnumber/number/Subtraction.jpg" alt="subtraction">
+											<p>Subtraction</p>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#flashmo_258_dark_focus" rel="nofollow" class="thumbnail">
+											<img src="/images/abcandnumber/color/color.jpg" alt="Color-basic">
+											<p>Color</p>
+										</a>
+									</div>
+                                    
+								</div>
+							</div>
+						</div>
+						<!-- <div class="row">
+							<div class="col-xs-12 col-md-12">
+                                <a href="#" class="btn btn-primary" role="button">View More</a>
+							</div>
+						</div>           -->
+					</section> <!-- flash gallery -->
+				</div> <!-- col -->
+			</div>  <!-- row -->   
+		</div> <!-- container -->
+		<footer class="container">
+			<div class="credit">
+				<p id="templatemo_cr_bar">
+					Copyright © 2022&nbsp; <a href="#">Group 6</a>
+				</p>
+			</div>
+		</footer>
 
-   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/offcanvas.js"></script>
+	    <!-- 
+		http://masonry.desandro.com/
+	    http://desandro.mit-license.org/ 
+		http://stackoverflow.com/questions/17767130/masonry-js-error-uncaught-typeerror-object-object-object-has-no-method-imag
+		Align items in center: https://github.com/desandro/isotope/issues/20
+	    Hiding text overflow: http://stackoverflow.com/questions/15308061/how-to-avoid-text-overflow-in-twitter-bootstrap
+		-->
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>	     
+		<script>
 
-   <script src="app.js"></script>
-   
-</body>
+			$(document).ready(function(){
+				init_masonry();
+			});
+
+			function init_masonry(){
+				var $container = $('.item_container');
+				$container.imagesLoaded( function(){
+					$container.masonry({
+						itemSelector : '.item',
+						"gutter": 18,
+						isFitWidth: true
+					});
+				});
+			}
+
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop: target.offset().top
+							}, 1000);
+							return false;
+						}
+					}
+				});
+			});
+			
+		</script>
+		<script type="text/javascript">
+      
+			// Function to show and hide the popup
+			function togglePopup() {
+				 $(".content").toggle();
+			}
+	  </script>
+	</body>
 </html>
