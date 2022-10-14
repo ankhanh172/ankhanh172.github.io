@@ -24,14 +24,9 @@ a{
    justify-content: center;
    align-items: center;
 }
-.logo h1{
-   font-size: 60px;
-   padding: 0 10px;
-}
 .logo img{
-   width: 100px;
+   width: 100%;
 }
-
   /* NAVBAR MENU */
 
 
