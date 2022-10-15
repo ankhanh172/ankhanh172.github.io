@@ -79,8 +79,18 @@ ul.sidebar_menu {
 .item p { text-align: center; }
 .item_container { margin: 0 auto; }
 
-.navbar-default { background-color: #96BA5A; border-color: #e7e7e7; max-width: 980px; margin: 0 auto; }
-.navbar { border-radius: 0px; border: none; font-weight: bold; font-size: 1.4rem; }
+.navbar-default {
+	background-color: #96BA5A;
+	border-color: #e7e7e7;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.navbar {
+	border-radius: 0px;
+	border: none;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
