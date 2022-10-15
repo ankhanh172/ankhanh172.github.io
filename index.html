@@ -98,11 +98,12 @@
 							<div class="col-xs-12 col-md-12">
 								<div class="item_container">
 									<div class="item">
-										<a href="/shape" rel="nofollow" class="thumbnail">
+										<a href="#shape" rel="nofollow" class="thumbnail">
 											<img src="/images/abcandnumber/shape.png" alt="shape-circle-square-triangle">
 											<p>Shape</p>
 										</a>
-									</div>		          
+										
+									</div>
 									<div class="item">
 										<a href="/abcandnumber.html" rel="nofollow" class="thumbnail">
 											<img src="/images/abcandnumber/abc/abcalphabet.jpg" alt="Stylish Gallery">
@@ -306,7 +307,14 @@
 					}
 				});
 			});
-			
+			let popup = document.getElementsByClassName("popup-items");
+			function mypopup() {
+				$(popup).addClass("open-popup-items");
+				popup.classList.add("open-popup-items");
+			}
+			function closepopup(){
+				popup.classList.remove("open-popup-items");
+			}
 		</script>
 		<script type="text/javascript">
       
