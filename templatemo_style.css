@@ -113,7 +113,34 @@ ul.sidebar_menu {
 	background-color: #83AF39;
 	border-color: #A1C565;
 }
+/* ================popup ================== */
 
+.popup-items{
+	width: 500px;
+	background-color: #A1C565;
+	border: #CC0000 solid 1px;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.1);
+	text-align: center;
+	padding: 10px 30px;
+	visibility: hidden;
+	transition: all 0.4s 0 0.4s;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+.popup-items img{
+	height: 100%;
+	width: 100%;
+}
+.open-popup-items{
+	visibility: visible;
+	transform: translate(-50%, -50%) scale(1);
+	top: 50%;
+}
+
+/* ===================================== */
 .footer_item { margin-bottom: 15px; }
 .footer_item img { width: 240px; height: 200px; }
 
