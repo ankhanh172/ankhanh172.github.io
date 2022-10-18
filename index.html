@@ -106,7 +106,7 @@
 							<div class="col-xs-12 col-md-12">
 								<div class="item_container">
 									<div class="item">
-										<a href="#shape" class="thumbnail">
+										<a href="#shape" class="open thumbnail">
 											<img src="/images/abcandnumber/shape.png" alt="shape-circle-square-triangle">
 											<p>Shape</p>
 										</a>
@@ -133,26 +133,86 @@
 										</div>
 									<!-- end -->
 									<div class="item">
-										<a href="#abc-alphabet" class="thumbnail">
+										<a href="#abc-alphabet" class=" open thumbnail">
 											<img src="/images/abcandnumber/abc/abcalphabet.jpg" alt="Stylish Gallery">
 											<p>ABC Alphabet</p>
 										</a>
 									</div>
-									
+									<!-- start popup -->
+									<div class="popup" id="abc-alphabet">
+										<div class="wrapper">
+											<h2>Shape</h2>
+											<img src="/images/abcandnumber/abc/abcalphabet.jpg" alt="shape">
+											<p>
+												A shape or figure is a graphical representation of an object or its external boundary, outline, or external surface, as opposed to other properties such as color, texture, or material type.
+												A plane shape or plane figure is constrained to lie on a plane, in contrast to solid 3D shapes.
+												<b>A two-dimensional shape</b> or <b>two-dimensional figure</b> (also: 2D shape or 2D figure) may lie on a more general curved surface (a non-Euclidean two-dimensional space).
+											</p>
+											<div class="item-links">
+												<a href="#">Circle</a>
+												<a href="#">Triangle</a>
+												<a href="#">Square</a>
+												<a href="#">Rectangle</a>
+											</div>
+										</div>
+										
+										<a class="close" href="#">&times;</a>
+									</div>
+									<!-- end -->
 									<div class="item">
 										<a href="#number" class="thumbnail">
 											<img src="/images/abcandnumber/number/number-1.jpg" alt="New Era">
 											<p>The Number</p>
 										</a>
 									</div>
-									
+									<!-- start popup -->
+									<div class="popup" id="number">
+										<div class="wrapper">
+											<h2>Shape</h2>
+											<img src="/images/abcandnumber/shape.png" alt="shape">
+											<p>
+												A shape or figure is a graphical representation of an object or its external boundary, outline, or external surface, as opposed to other properties such as color, texture, or material type.
+												A plane shape or plane figure is constrained to lie on a plane, in contrast to solid 3D shapes.
+												<b>A two-dimensional shape</b> or <b>two-dimensional figure</b> (also: 2D shape or 2D figure) may lie on a more general curved surface (a non-Euclidean two-dimensional space).
+											</p>
+											<div class="item-links">
+												<a href="#">Circle</a>
+												<a href="#">Triangle</a>
+												<a href="#">Square</a>
+												<a href="#">Rectangle</a>
+											</div>
+										</div>
+										
+										<a class="close" href="#">&times;</a>
+									</div>
+									<!-- end -->
 									<div class="item">
 										<a href="#table" class="thumbnail">
 											<img src="/images/abcandnumber/table/multiplication-tables.png" alt="table of number">
 											<p>Table of 1,2,3,...</p>
 										</a>
 									</div>
-									
+									<!-- start popup -->
+									<div class="popup" id="table">
+										<div class="wrapper">
+											<h2>Shape</h2>
+											<img src="/images/abcandnumber/shape.png" alt="shape">
+											<p>
+												A shape or figure is a graphical representation of an object or its external boundary, outline, or external surface, as opposed to other properties such as color, texture, or material type.
+												A plane shape or plane figure is constrained to lie on a plane, in contrast to solid 3D shapes.
+												<b>A two-dimensional shape</b> or <b>two-dimensional figure</b> (also: 2D shape or 2D figure) may lie on a more general curved surface (a non-Euclidean two-dimensional space).
+											</p>
+											<div class="item-links">
+												<a href="#">Circle</a>
+												<a href="#">Triangle</a>
+												<a href="#">Square</a>
+												<a href="#">Rectangle</a>
+											</div>
+										</div>
+										
+										<a class="close" href="#">&times;</a>
+									</div>
+									<!-- end -->
 									<div class="item">
 										<a href="/addition.html" class="thumbnail">
 											<img src="/images/abcandnumber/number/addition.jpg" alt="Addition">
@@ -342,21 +402,28 @@
 		<script>
       
 			//Function to show and hide the popup
+			// $(function(){
+			// 	var overlay = $('<div id="overlay"></div>');
+			// 	overlay.show();
+			// 	overlay.appendTo(document.body);
+			// 	$('.popup').show();
+			// 	$('.close').click(function(){
+			// 	$('.popup').hide();
+			// 	overlay.appendTo(document.body).remove();
+			// 	return false;
+			// 	});
+			// 	$('.x').click(function(){
+			// 	$('.popup').hide();
+			// 	overlay.appendTo(document.body).remove();
+			// 	return false;
+			// 	});
+			// });
 			$(function(){
-				var overlay = $('<div id="overlay"></div>');
-				overlay.show();
-				overlay.appendTo(document.body);
-				$('.popup').show();
-				$('.close').click(function(){
-				$('.popup').hide();
-				overlay.appendTo(document.body).remove();
-				return false;
-				});
-
-				$('.x').click(function(){
-				$('.popup').hide();
-				overlay.appendTo(document.body).remove();
-				return false;
+				$(".open").click(function(){
+					$( ".popup" ).show();
+				})
+				$(".close").click(function(){
+					$( ".popup" ).hide();
 				});
 			});
 	  </script>
