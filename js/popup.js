@@ -53,8 +53,8 @@ $(function(){
     $(".daucus").click(function(){
         $( "#daucus" ).show();
     });
-    $(".sonalum").click(function(){
-        $( "#sonalum" ).show();
+    $(".solanum").click(function(){
+        $( "#solanum" ).show();
     });
     $(".cucumis").click(function(){
         $( "#cucumis" ).show();
