@@ -22,7 +22,8 @@ a:hover {
 	text-decoration: none;
 	color: blue;
 }
-a.youtube:hover{
+
+a.youtube{
 	text-decoration: none;
 	color: #cc0000;
 }
