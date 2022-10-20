@@ -21,7 +21,7 @@ $(function(){
     $(".color").click(function(){
         $( "#color" ).show();
     });
-// =======================animals============================
+    // ============animals==========
     $(".mammals").click(function(){
         $( "#mammals" ).show();
     });
@@ -64,9 +64,6 @@ $(function(){
     });
 
     // close popup
-    $(".item_container").click(function(){
-        $( ".popup" ).hide();
-    });
     $(".close").click(function(){
         $( ".popup" ).hide();
     });
