@@ -9,7 +9,7 @@
 	left: 0;
 	top: 0;
 	animation-name: popupanimate;
-	animation-duration: 5s;
+	animation-duration: .75s;
 }
 
 .wrapper {
