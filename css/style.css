@@ -1,6 +1,5 @@
 .popup {
-	background: rgba(11, 209, 255);
-	position: fixed;
+	background: linear-gradient(45deg, rgb(22, 206, 223) 0%, rgb(223, 22, 206) 35%, rgb(206, 223, 22) 100%);	position: fixed;
 	display: none;
 	z-index: 9999;
 	height: 100%;
@@ -9,7 +8,7 @@
 	left: 0;
 	top: 0;
 	animation-name: popupanimate;
-	animation-duration: .75s;
+	animation-duration: 5s;
 }
 
 .wrapper {
@@ -46,6 +45,6 @@
 		background: rgba(143, 122, 118);
 	} */
 	50%{
-		background: rgb(11, 148, 255 );
+		background: linear-gradient(45deg, rgb(206, 223, 22) 0%, rgb(223, 22, 206) 35%, rgb(22, 206, 223) 100%);
 	}
 }
