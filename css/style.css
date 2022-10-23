@@ -1,5 +1,8 @@
-.popup {
-	background: linear-gradient(45deg, rgb(22, 206, 223) 0%, rgb(223, 22, 206) 35%, rgb(206, 223, 22) 100%);	position: fixed;
+.item_container .item:hover{
+	transform: scale(1.1);
+}
+.popup{
+	background: linear-gradient(45deg, rgb(42, 172, 184) 0%, rgb(223, 22, 206) 35%, rgb(206, 223, 22) 100%);	position: fixed;
 	display: none;
 	z-index: 9999;
 	height: 100%;
@@ -7,8 +10,7 @@
 	width: 100%;
 	left: 0;
 	top: 0;
-	animation-name: popupanimate;
-	animation-duration: 5s;
+	animation: popupanimate 4s linear infinite;
 }
 
 .wrapper {
@@ -44,7 +46,7 @@
 	/* 25%{
 		background: rgba(143, 122, 118);
 	} */
-	50%{
+	100%{
 		background: linear-gradient(45deg, rgb(206, 223, 22) 0%, rgb(223, 22, 206) 35%, rgb(22, 206, 223) 100%);
 	}
 }
