@@ -56,7 +56,86 @@
         </nav>
     </header>
 
+	<div class="container" id="home">
+		<div class="row row-offcanvas row-offcanvas-left">
+			<div class="col col-xs-12 col-sm-9">
+				<p class="pull-left visible-xs">
+					<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+				</p>
+				<section class="row" id="animals_templates">
+					<div class="row">
+						<div class="col-xs-12 col-md-12">
+							<h3>Mammals</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-md-12">
+							<div class="item_container">
+								<div class="item">
+									<a href="#cat" class="cat thumbnail">
+										<img src="/images/animals/mammals/cat.png" alt="cat">
+										<p>Cat</p>
+									</a>
+								</div>
+								<div class="popup" id="cat">
+									<div class="wrapper">
+										<img class="close" src="/images/page/square-x.svg" style="width: 40px;" alt="x">
+										<p>Cat</p>
+										<img style="width: 450px;" src="/images/animals/mammals/cat.png" alt="cat">
+										<p>
+			
+										</p>
+										<div class="item-links">
+											<a href="#">Video Cat</a>
+										</div>
+									</div>
+								</div>
 
+								<div class="item">
+									<a href="#dog" class="dog thumbnail">
+										<img src="/images/animals/mammals/dog.png" alt="dog">
+										<p>Dog</p>
+									</a>
+								</div>
+								<div class="popup" id="dog">
+									<div class="wrapper">
+										<img class="close" src="/images/page/square-x.svg" style="width: 40px;" alt="x">
+										<p>Dog</p>
+										<img style="width: 450px;" src="/images/animals/mammals/dog.png" alt="dog">
+										<p>
+			
+										</p>
+										<div class="item-links">
+											<a href="#">Video Dog</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<a href="#dog" class="dog thumbnail">
+										<img src="/images/animals/mammals/dog.png" alt="dog">
+										<p>Dog</p>
+									</a>
+								</div>
+								<div class="popup" id="dog">
+									<div class="wrapper">
+										<img class="close" src="/images/page/square-x.svg" style="width: 40px;" alt="x">
+										<p>Dog</p>
+										<img style="width: 450px;" src="/images/animals/mammals/dog.png" alt="dog">
+										<p>
+			
+										</p>
+										<div class="item-links">
+											<a href="#">Video Dog</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
 
 
 	<footer class="container">
@@ -77,7 +156,7 @@
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>	
 	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>     
-	<script src="./js/popup.js"></script>
+	<script src="/js/popup.js"></script>
 	<script>
 		$(document).ready(function(){
 			init_masonry();
