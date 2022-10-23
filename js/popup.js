@@ -62,6 +62,12 @@ $(function(){
     $(".allium").click(function(){
         $( "#allium" ).show();
     });
+    $(".cat").click(function(){
+        $( "#cat" ).show();
+    });
+    $(".dog").click(function(){
+        $( "#dog" ).show();
+    });
 
     // close popup
     $(".close").click(function(){
