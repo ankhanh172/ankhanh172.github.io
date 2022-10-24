@@ -62,6 +62,7 @@ $(function(){
     $(".allium").click(function(){
         $( "#allium" ).show();
     });
+    // ......................................
     $(".cat").click(function(){
         $( "#cat" ).show();
     });
@@ -92,6 +93,78 @@ $(function(){
     $(".kangaroo").click(function(){
         $( "#kangaroo" ).show();
     });
+    $(".pig").click(function(){
+        $( "#pig" ).show();
+    });
+
+    // ..............................................
+    
+    $(".tuna").click(function(){
+        $( "#tuna" ).show();
+    });
+    $(".tarpon").click(function(){
+        $( "#tarpon" ).show();
+    });
+    $(".striper").click(function(){
+        $( "#striper" ).show();
+    });
+    $(".snook").click(function(){
+        $( "#snook" ).show();
+    });
+    $(".redfish").click(function(){
+        $( "#redfish" ).show();
+    });
+    $(".rainbow-fish").click(function(){
+        $( "#rainbow-fish" ).show();
+    });
+    $(".muskie").click(function(){
+        $( "#muskie" ).show();
+    });
+    $(".largemouthbass").click(function(){
+        $( "#largemouthbass" ).show();
+    });
+    $(".dorado").click(function(){
+        $( "#dorado" ).show();
+    });
+    $(".carp").click(function(){
+        $( "#carp" ).show();
+    });
+    $(".brown").click(function(){
+        $( "#brown" ).show();
+    });
+    $(".brook").click(function(){
+        $( "#brook" ).show();
+    });
+    $(".bonefish").click(function(){
+        $( "#bonefish" ).show();
+    });
+    $(".bluegill").click(function(){
+        $( "#bluegill" ).show();
+    });
+
+    // ..............................................
+    $(".cardinals").click(function(){
+        $( "#cardinals" ).show();
+    });
+    $(".eangle").click(function(){
+        $( "#eangle" ).show();
+    });
+    $(".fly-catchers").click(function(){
+        $( "#fly-catchers" ).show();
+    });
+    $(".olw").click(function(){
+        $( "#olw" ).show();
+    });
+    $(".peacock").click(function(){
+        $( "#peacock" ).show();
+    });
+    $(".penguin").click(function(){
+        $( "#penguin" ).show();
+    });
+    $(".wood-pecker").click(function(){
+        $( "#wood-pecker" ).show();
+    });
+
 
     // close popup
     $(".close").click(function(){
