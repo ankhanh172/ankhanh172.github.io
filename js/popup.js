@@ -68,6 +68,30 @@ $(function(){
     $(".dog").click(function(){
         $( "#dog" ).show();
     });
+    $(".elephant").click(function(){
+        $( "#elephant" ).show();
+    });
+    $(".lion").click(function(){
+        $( "#lion" ).show();
+    });
+    $(".fox").click(function(){
+        $( "#fox" ).show();
+    });
+    $(".cow").click(function(){
+        $( "#cow" ).show();
+    });
+    $(".bat").click(function(){
+        $( "#bat" ).show();
+    });
+    $(".deer").click(function(){
+        $( "#deer" ).show();
+    });
+    $(".hourse").click(function(){
+        $( "#hourse" ).show();
+    });
+    $(".kangaroo").click(function(){
+        $( "#kangaroo" ).show();
+    });
 
     // close popup
     $(".close").click(function(){
