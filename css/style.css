@@ -8,7 +8,6 @@
 	z-index: 9999;
 	height: 100%;
    	text-align: center;
-	padding: 10px;
 	width: 100%;
 	left: 0;
 	top: 0;
@@ -19,17 +18,17 @@
 	max-height: 30%;
 }
 .wrapper {
-	min-width: 700px;
-	max-height: 700px;
+	min-width: 600px;
+	max-height: 750px;
 	width: 60%;
 	position: absolute;
 	transform: translate(-50%, -50%);
 	left: 50%;
    	top: 50%;
 	background: #FFFFFF;
-	padding: 20px;
+	padding: 10px;
 	border-radius: 10px;
-	box-shadow: 4px 4px 20px 10px rgba(#000000, 0.4);
+	box-shadow: 3px 3px 10px 0 rgba(#000000, 0.4);
 }
 
 .wrapper h2{
@@ -38,7 +37,7 @@
 }
 
 .wrapper a{
-   font-size: 20px;
+   font-size: 16px;
    padding: 0 10px;
 }
 
@@ -49,9 +48,9 @@
 }
 
 @keyframes popupanimate {
-	/* 25%{
-		background: rgba(143, 122, 118);
-	} */
+	50%{
+		background: linear-gradient(45deg, rgb(223,22,206)0%, rgb(22,206,223)35%, rgb(206,223,22)100%);
+	}
 	100%{
 		background: linear-gradient(45deg, rgb(206, 223, 22) 0%, rgb(223, 22, 206) 35%, rgb(22, 206, 223) 100%);
 	}
