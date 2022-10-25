@@ -9,7 +9,7 @@ body{
 b{
 	font-weight: 700;
 }
-p{
+.popup p{
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -114,13 +114,16 @@ ul.sidebar_menu {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
 	color: white;
+	border-radius: 10px;
 	background-color: #4BC1DD;
 }
 
 .navbar-default .navbar-nav > li > a { color: white; }
 .navbar-default .navbar-nav > li > a:hover { 
 	color: black;
-	background-color: #4BC1DD; 
+	border-radius: 10px;
+	background-color: #4BC1DD;
+	transition: all 1s ease;
 }
 
 #home h3{ margin-left: 20px; }
