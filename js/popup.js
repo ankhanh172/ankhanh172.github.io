@@ -1,68 +1,5 @@
 //Function to show and hide the popup
 $(function(){
-    $(".shape").click(function(){
-        $( "#shape" ).show();
-    });
-    $(".abc-alphabet").click(function(){
-        $( "#abc-alphabet" ).show();
-    });
-    $(".number").click(function(){
-        $( "#number" ).show();
-    });
-    $(".table").click(function(){
-        $( "#table" ).show();
-    });
-    $(".addition").click(function(){
-        $( "#addition" ).show();
-    });
-    $(".subtraction").click(function(){
-        $( "#subtraction" ).show();
-    });
-    $(".color").click(function(){
-        $( "#color" ).show();
-    });
-    // ============animals==========
-    $(".mammals").click(function(){
-        $( "#mammals" ).show();
-    });
-    $(".birds").click(function(){
-        $( "#birds" ).show();
-    });
-    $(".dino").click(function(){
-        $( "#dino" ).show();
-    });
-    $(".fish").click(function(){
-        $( "#fish" ).show();
-    });
-    $(".reptiles").click(function(){
-        $( "#reptiles" ).show();
-    });
-    $(".amphibians").click(function(){
-        $( "#amphibians" ).show();
-    });
-    $(".phylum").click(function(){
-        $( "#phylum" ).show();
-    });
-    // =========Vegetable========
-    $(".brassica").click(function(){
-        $( "#brassica" ).show();
-    });
-    $(".phaseolus").click(function(){
-        $( "#phaseolus" ).show();
-    });
-    $(".daucus").click(function(){
-        $( "#daucus" ).show();
-    });
-    $(".solanum").click(function(){
-        $( "#solanum" ).show();
-    });
-    $(".cucumis").click(function(){
-        $( "#cucumis" ).show();
-    });
-    $(".allium").click(function(){
-        $( "#allium" ).show();
-    });
-    // ......................................
     $(".cat").click(function(){
         $( "#cat" ).show();
     });
@@ -165,7 +102,67 @@ $(function(){
         $( "#wood-pecker" ).show();
     });
 
-
+    $(".content_1").click(function(){
+        $( "#content_1" ).show();
+    });
+    $(".content_2").click(function(){
+        $( "#content_2" ).show();
+    });
+    $(".content_3").click(function(){
+        $( "#content_3" ).show();
+    });
+    $(".content_4").click(function(){
+        $( "#content_4" ).show();
+    });
+    $(".content_5").click(function(){
+        $( "#content_5" ).show();
+    });
+    $(".content_6").click(function(){
+        $( "#content_6" ).show();
+    });
+    $(".content_7").click(function(){
+        $( "#content_7" ).show();
+    });
+    $(".content_8").click(function(){
+        $( "#content_8" ).show();
+    });
+    $(".content_9").click(function(){
+        $( "#content_9" ).show();
+    });
+    $(".content_10").click(function(){
+        $( "#content_10" ).show();
+    });
+    $(".content_11").click(function(){
+        $( "#content_11" ).show();
+    });
+    $(".content_12").click(function(){
+        $( "#content_12" ).show();
+    });
+    $(".content_13").click(function(){
+        $( "#content_13" ).show();
+    });
+    $(".content_14").click(function(){
+        $( "#content_14" ).show();
+    });
+    $(".content_15").click(function(){
+        $( "#content_15" ).show();
+    });
+    $(".content_16").click(function(){
+        $( "#content_16" ).show();
+    });
+    $(".content_17").click(function(){
+        $( "#content_17" ).show();
+    });
+    $(".content_18").click(function(){
+        $( "#content_18" ).show();
+    });
+    $(".content_19").click(function(){
+        $( "#content_19" ).show();
+    });
+    $(".content_20").click(function(){
+        $( "#content_20" ).show();
+    });
+    
     // close popup
     $(".close").click(function(){
         $( ".popup" ).hide();
