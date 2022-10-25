@@ -6,7 +6,13 @@ body{
 	font-size: 1.5em;
 	overflow-x: hidden;
 }
-
+b{
+	font-weight: 700;
+}
+p{
+	font-size: 18px;
+	font-weight: 600;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: Verdana, Arial, sans-serif;
 }
@@ -73,10 +79,11 @@ ul.sidebar_menu {
 }
 
 .logo {
-	padding-top: 15px;
+	padding-top: 10px;
 }
 .logo img{
-	width: 100px;
+	width: 200px;
+
 }
 .container{
 	max-width: 980px;
