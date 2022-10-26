@@ -165,6 +165,31 @@ $(function(){
         $( "#wood-pecker" ).show();
     });
 
+    
+    $(".turtle").click(function(){
+        $( "#turtle" ).show();
+    });
+    $(".snake").click(function(){
+        $( "#snake" ).show();
+    });
+    $(".cobra").click(function(){
+        $( "#cobra" ).show();
+    });
+    $(".crocodile").click(function(){
+        $( "#crocodile" ).show();
+    });
+    $(".iguana").click(function(){
+        $( "#iguana" ).show();
+    });
+    $(".taipan").click(function(){
+        $( "#taipan" ).show();
+    });
+    $(".lizard").click(function(){
+        $( "#lizard" ).show();
+    });
+    $(".tuatara").click(function(){
+        $( "#tuatara" ).show();
+    });
 
     // close popup
     $(".close").click(function(){
