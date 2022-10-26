@@ -79,10 +79,11 @@ ul.sidebar_menu {
 }
 
 .logo {
+	position: relative;
 	padding-top: 10px;
 }
 .logo img{
-	width: 200px;
+	width: 250px;
 
 }
 .container{
