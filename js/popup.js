@@ -191,6 +191,19 @@ $(function(){
         $( "#tuatara" ).show();
     });
 
+    $(".Frog").click(function(){
+        $( "#Frog" ).show();
+    });
+    $(".Newt").click(function(){
+        $( "#Newt" ).show();
+    });
+    $(".Caecilian").click(function(){
+        $("#Caecilian").show();
+    });
+    $(".Salamander").click(function(){
+        $("#Salamander").show();
+    });
+
     // close popup
     $(".close").click(function(){
         $( ".popup" ).hide();
